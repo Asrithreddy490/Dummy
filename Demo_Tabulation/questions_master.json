@@ -1,1 +1,29 @@
-[]
+[
+    {
+        "id": 1,
+        "question_var": "hAGE",
+        "question_text": "What is your age?    ",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "18-34",
+                1
+            ],
+            [
+                "code",
+                "35-54",
+                2
+            ],
+            [
+                "code",
+                "55+",
+                3
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": "S1",
+        "show_sigma": true
+    }
+]
