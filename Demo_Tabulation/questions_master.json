@@ -2,7 +2,7 @@
     {
         "id": 1,
         "question_var": "hAGE",
-        "question_text": "What is your age?    ",
+        "question_text": "hAge. What is your age",
         "base_text": "Total Respondents",
         "display_structure": [
             [
@@ -24,6 +24,201 @@
         "base_filter": null,
         "question_type": "single",
         "mean_var": "S1",
+        "show_sigma": true
+    },
+    {
+        "id": 2,
+        "question_var": "S2",
+        "question_text": "S2. What is your gender?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "Male",
+                1
+            ],
+            [
+                "code",
+                "Female",
+                2
+            ],
+            [
+                "code",
+                "Non-binary",
+                3
+            ],
+            [
+                "code",
+                "My gender is not listed above",
+                4
+            ],
+            [
+                "code",
+                "Prefer not to answer",
+                5
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 3,
+        "question_var": [
+            "S6r1",
+            "S6r2",
+            "S6r3",
+            "S6r4",
+            "S6r5",
+            "S6r6",
+            "S6r7",
+            "S6r8",
+            "S6r9",
+            "S6r99",
+            "S6r100"
+        ],
+        "question_text": "S6. Do you subscribe to any of the following providers of live TV over the internet? ",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "net",
+                "All not DIRECTV Stream (NET)",
+                [
+                    "S6r2",
+                    "S6r3",
+                    "S6r4",
+                    "S6r5",
+                    "S6r6",
+                    "S6r7",
+                    "S6r8",
+                    "S6r9",
+                    "S6r99"
+                ]
+            ],
+            [
+                "code",
+                "DIRECTV STREAM ",
+                "S6r1"
+            ],
+            [
+                "code",
+                "Fubo TV",
+                "S6r2"
+            ],
+            [
+                "code",
+                "Frndly",
+                "S6r3"
+            ],
+            [
+                "code",
+                "Hulu + Live TV ",
+                "S6r4"
+            ],
+            [
+                "code",
+                "NOW TV (from Xfinity) ",
+                "S6r5"
+            ],
+            [
+                "code",
+                "Philo ",
+                "S6r6"
+            ],
+            [
+                "code",
+                "Sling TV ",
+                "S6r7"
+            ],
+            [
+                "code",
+                "YouTube TV ",
+                "S6r8"
+            ],
+            [
+                "net",
+                "All not DIRECTV Stream (NET)",
+                [
+                    "S6r2",
+                    "S6r3",
+                    "S6r4",
+                    "S6r5",
+                    "S6r6",
+                    "S6r7",
+                    "S6r8",
+                    "S6r9",
+                    "S6r99"
+                ]
+            ],
+            [
+                "code",
+                "TVision by T-Mobile",
+                "S6r9"
+            ],
+            [
+                "code",
+                "Other",
+                "S6r99"
+            ],
+            [
+                "code",
+                "None of the above",
+                "S6r100"
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "multi",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 4,
+        "question_var": "hGender",
+        "question_text": "hGender. What is your gender?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "Male",
+                1
+            ],
+            [
+                "code",
+                "Female",
+                2
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 5,
+        "question_var": "S6b",
+        "question_text": "S6b. Do you have a 24-month service term commitment with your DIRECTV STREAM package? ",
+        "base_text": "HAVE DIRECTV STREAMING DEVICE ",
+        "display_structure": [
+            [
+                "code",
+                "Yes",
+                1
+            ],
+            [
+                "code",
+                "No",
+                2
+            ],
+            [
+                "code",
+                "Not sure",
+                3
+            ]
+        ],
+        "base_filter": "S6a=1",
+        "question_type": "single",
+        "mean_var": null,
         "show_sigma": true
     }
 ]
